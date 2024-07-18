@@ -2996,6 +2996,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"TurboContacts@file:./turbo-contacts::locator=advancedcontacts%40workspace%3A.":
+  version: 1.0.1
+  resolution: "TurboContacts@file:./turbo-contacts#./turbo-contacts::hash=bb78ed&locator=advancedcontacts%40workspace%3A."
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 602a495526fdc37b70d7d9bb085d908aad97d3e81a8b9d2475fb779bd8a8876f606c85f33c935710181b4e62c2a0c68daca05b4d2187f0dedd6c95281cdd8bdc
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -3053,6 +3063,7 @@ __metadata:
     "@react-native/typescript-config": 0.74.85
     "@types/react": ^18.2.6
     "@types/react-test-renderer": ^18.0.0
+    TurboContacts: ./turbo-contacts
     babel-jest: ^29.6.3
     eslint: ^8.19.0
     jest: ^29.6.3

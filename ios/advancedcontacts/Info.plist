@@ -48,5 +48,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSContactsUsageDescription</key>
+	<string>$(PRODUCT_NAME) wants to access your contacts to list them</string>
 </dict>
 </plist>

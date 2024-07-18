@@ -1165,6 +1165,27 @@ PODS:
     - React-perflogger (= 0.74.3)
     - React-utils (= 0.74.3)
   - SocketRocket (0.7.0)
+  - TurboContacts (1.0.1):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1223,6 +1244,7 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - TurboContacts (from `../node_modules/TurboContacts`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1337,6 +1359,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  TurboContacts:
+    :path: "../node_modules/TurboContacts"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1376,9 +1400,9 @@ SPEC CHECKSUMS:
   React-perflogger: 7bb9ba49435ff66b666e7966ee10082508a203e8
   React-RCTActionSheet: a2816ae2b5c8523c2bc18a8f874a724a096e6d97
   React-RCTAnimation: e78f52d7422bac13e1213e25e9bcbf99be872e1a
-  React-RCTAppDelegate: 24f46de486cfa3a9f46e4b0786eaf17d92e1e0c6
+  React-RCTAppDelegate: 4843f73d1089552a7d7f4ec6d29e9942c8f5e161
   React-RCTBlob: 9f9d6599d1b00690704dadc4a4bc33a7e76938be
-  React-RCTFabric: 609e66bb0371b9082c62ed677ee0614efe711bf2
+  React-RCTFabric: 56eb7973b13cd9d7be03ca06f621ed0edd124b81
   React-RCTImage: 39dd5aee6b92213845e1e7a7c41865801dc33493
   React-RCTLinking: 35d742a982f901f9ea416d772763e2da65c2dc7d
   React-RCTNetwork: b078576c0c896c71905f841716b9f9f5922111dc
@@ -1395,8 +1419,9 @@ SPEC CHECKSUMS:
   React-utils: a06061b3887c702235d2dac92dacbd93e1ea079e
   ReactCommon: f00e436b3925a7ae44dfa294b43ef360fbd8ccc4
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  TurboContacts: 3e7b1794c87ed550d0ea919bee1c85c483fb3ed3
   Yoga: 04f1db30bb810187397fa4c37dd1868a27af229c
 
 PODFILE CHECKSUM: a6108fedc4954b4e91b8f6c171e8f3833288d738
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
